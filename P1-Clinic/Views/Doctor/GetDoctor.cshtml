@@ -1,0 +1,26 @@
+﻿@model P1_Clinic.Models.Doctor
+    @using Resources
+<div class="container-sm shadow d-flex justify-content-center" >
+    <h1 class="text-center">@Local.Doctors</h1>
+    <div class="card shadow p-3" style="width:400px">
+        @Html.LabelFor(d => d.DoctorId,Local.DoctorId, new { @class = "form-lable" })
+        @Html.TextBoxFor(d => d.DoctorId, new { @class = "form-control", @readonly = "readonly" })
+        <br />
+        @Html.LabelFor(d => d.Person.Name, @Local.Name, new { @class = "form-lable" })
+        @Html.TextBoxFor(d => d.Person.Name, new { @class = "form-control", @readonly = "readonly" })
+        <br />
+        @Html.LabelFor(d => d.Person.Email, @Local.Email, new { @class = "form-lable" })
+        @Html.TextBoxFor(d => d.Person.Email, new { @class = "form-control", @readonly = "readonly" })
+        <br />
+        @Html.LabelFor(d => d.Person.Phone, @Local.PhoneNumber, new { @class = "form-lable" })
+        @Html.TextBoxFor(d => d.Person.Phone, new { @class = "form-control", @readonly = "readonly" })
+        <br />
+        @Html.LabelFor(d => d.Person.Address, @Local.Address, new { @class = "form-lable" })
+        @Html.TextBoxFor(d => d.Person.Address, new { @class = "form-control", @readonly = "readonly" })
+        <br />
+        @Html.LabelFor(d => d.Specialization, @Local.Specialization, new { @class = "form-lable" })
+        @Html.TextBoxFor(d => d.Specialization, new { @class = "form-control", @readonly = "readonly" })
+        @Html.ActionLink(@Local.BackToList, "GetAllDoctors", "Doctor", null, new { @class = "btn btn-primary mt-5" })
+
+    </div>
+</div>

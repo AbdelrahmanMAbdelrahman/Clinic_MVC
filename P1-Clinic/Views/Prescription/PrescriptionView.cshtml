@@ -1,0 +1,41 @@
+﻿@model P1_Clinic.Models.Prescription
+@using Resources
+<div class="container-sm d-flex justify-content-center">
+    <div class="card shadow p-3" style="width:400px">
+        @using (Html.BeginForm("Save", "Prescription", FormMethod.Post))
+        { 
+        @Html.HiddenFor(p => p.PrescriptionId)
+        <div class="mb-3">
+            @Html.LabelFor(p => p.MedicationName,Local.MedicationName, new { @class = "form-lable" })
+            @Html.TextBoxFor(p => p.MedicationName, new { @class = "form-control",placeholder=Local.MedicationName })
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(p => p.MedicalRecord.Patient.Person.Name,Local.Patient, new { @class = "form-lable" })
+            @Html.DropDownListFor(p => p.MedicalRecordId, (SelectList)ViewBag.MRs,Local.Select, new { @class = "form-control" })
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(p => p.Dosage,Local.Dosage, new { @class = "form-lable" })
+            @Html.TextBoxFor(p => p.Dosage, new { @class = "form-control", placeholder = Local.Dosage })
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(p => p.StartDate,Local.StartDate, new { @class = "form-lable" })
+            @Html.TextBoxFor(p => p.StartDate, new { @class = "form-control",type="date", placeholder = Local.StartDate })
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(p => p.EndDate,Local.EndDate, new { @class = "form-lable" })
+            @Html.TextBoxFor(p => p.EndDate, new { @class = "form-control" ,type="date", placeholder = Local.EndDate})
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(p => p.Frequency,Local.Frequency, new { @class = "form-lable" })
+            @Html.TextBoxFor(p => p.Frequency, new { @class = "form-control" , placeholder = Local.Frequency})
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(p => p.Notes,Local.Notes, new { @class = "form-lable" })
+            @Html.TextBoxFor(p => p.Notes, new { @class = "form-control", placeholder = Local.Notes })
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-info">@Local.Save</button>
+        </div>
+            }
+    </div>
+</div>

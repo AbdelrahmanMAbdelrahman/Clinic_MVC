@@ -1,0 +1,41 @@
+﻿@model P1_Clinic.ViewModels.PatientViewModel
+@using Resources
+<div class="justify-content-center d-flex">
+    <div class="card shadow p-3" style="width:400px">
+        <h3 class="text-primary text-center">Patient Details</h3>
+        <div class="mb-3">
+            @Html.LabelFor(p => p.Person.PersonId, @Local.PersonId, new { @class = "form-label" })
+            @Html.TextBoxFor(p => p.Person.PersonId, new { @class = "form-control", @readonly = "readonly" })
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(p => p.Person.Name, @Local.Name, new { @class = "form-label" })
+            @Html.TextBoxFor(p => p.Person.Name, new { @class = "form-control", @readonly = "readonly" })
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(p => p.Person.Email, @Local.Email, new { @class = "form-label" })
+            @Html.TextBoxFor(p => p.Person.Email, new { @class = "form-control", @readonly = "readonly" })
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(p => p.Person.Address, @Local.Address, new { @class = "form-label" })
+            @Html.TextBoxFor(p => p.Person.Address, new { @class = "form-control", @readonly = "readonly" })
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(p => p.Person.Phone, @Local.PhoneNumber, new { @class = "form-label" })
+            @Html.TextBoxFor(p => p.Person.Name, new { @class = "form-control", @readonly = "readonly" })
+        </div>
+        <div class="btn-primary">
+            @Html.ActionLink("Back to List", "GetAllPatients", "Patient", null, new { @class = "btn btn-primary m-3" })
+            @if (Model.IsPaid)
+            {
+                @Html.ActionLink(@Local.AlreadyPaid, "AddNewPayment", "Payment",
+    new { Id = Model.PatientId },
+    new { @class = "btn btn-success m-3 disabled" }
+    )}
+            else
+            {
+                @Html.ActionLink(@Local.PayForMedicalRecords, "AddNewPayment", "Payment", new { Id = Model.PatientId },
+                    new { @class = "btn btn-success m-3" });
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,40 @@
+﻿@model P1_Clinic.Models.Payment
+    @using Resources
+<div class="container-sm d-flex justify-content-center" ">
+    <div class="p-3" style="width:400px">
+      
+        <h3 class="text-primary text-center">@Local.PaymentDetails</h3>
+        <div class="mb-3">
+            @Html.LabelFor(p => p.PaymentDate, Local.PaymentDate , new { @class = "form-label" })
+            @Html.TextBoxFor(p => p.PaymentDate, new { @class = "form-control",@readonly="readonly" })
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(p => p.AmountPaid, Local.AmountPaid, new { @class = "form-label" })
+            @Html.TextBoxFor(p => p.AmountPaid, new { @class = "form-control", @readonly = "readonly" })
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(p => p.PatientId, Local.Patient, new { @class = "form-label" })
+            @Html.TextBoxFor(p => p.Patient.Person.Name, 
+           new { @class = "form-control", @readonly = "readonly" })
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(p => p.DoctorId, Local.Doctor, new { @class = "form-label" })
+            @Html.TextBoxFor(p => p.Doctor.Person.Name,
+            new { @class = "form-control", @readonly = "readonly" })
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(p => p.PaymentMethodId, Local.PaymentMethod, new { @class = "form-label" })
+            @Html.TextBoxFor(p => p.PaymentMethod.MethodName, 
+           new { @class = "form-control", @readonly = "readonly" })
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(p => p.Notes, Local.Notes, new { @class = "form-label" })
+            @Html.TextAreaFor(p => p.Notes, new { @class = "form-control", rows = 3 ,@readonly = "readonly" })
+        </div>
+        <div class="d-flex justify-content-between">
+             
+            @Html.ActionLink(@Local.BackToList, "GetAllPayments", "Payment", null, new { @class = "btn btn-primary" })
+        </div>
+        
+    </div>
+</div>

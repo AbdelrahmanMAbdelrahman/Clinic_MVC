@@ -1,0 +1,73 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+@using Resources
+
+<div class="container mt-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold text-primary">
+            @Local.WelcomeToOurClinic
+        </h1>
+        <p class="lead text-muted">@Local.ManagePatients_Doctors_MedicalRecordsAndMore_AllInOnePlace .</p>
+        <a href="@Url.Action("GetAllPatients","Patient")" class="btn btn-primary btn-lg mt-3">@Local.GetStarted</a>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card shadow-lg border-0 rounded-3 h-100">
+                <div class="card-body text-center">
+                    <i class="bi bi-people display-3 text-success"></i>
+                    <h4 class="mt-3">@Local.Patients</h4>
+                    <p class="text-muted">@Local.ViewAndManageAllPatientRecordsEasily .</p>
+                    <a href="@Url.Action("GetAllPatients","Patient")" class="btn btn-outline-success">@Local.ViewPatients</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-lg border-0 rounded-3 h-100">
+                <div class="card-body text-center">
+                    <i class="bi bi-person-badge display-3 text-info"></i>
+                    <h4 class="mt-3">@Local.Doctors</h4>
+                    <p class="text-muted">@Local.BrowseDoctorProfileAndSpecialies .</p>
+                    <a href="@Url.Action("GetAllDoctors","Doctor")" class="btn btn-outline-info">@Local.ViewDoctors</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-lg border-0 rounded-3 h-100">
+                <div class="card-body text-center">
+                    <i class="bi bi-journal-medical display-3 text-danger"></i>
+                    <h4 class="mt-3">@Local.MedicalRecords</h4>
+                    <p class="text-muted">@Local.AccessDiagnosis_Prescription_AndHistory .</p>
+                    <a href="@Url.Action("GetAllMedicalRecords","MedicalRecord")" class="btn btn-outline-danger">@Local.ViewRecords</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4 mt-4">
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0 rounded-3 h-100">
+                <div class="card-body text-center">
+                    <i class="bi bi-cash-coin display-3 text-warning"></i>
+                    <h4 class="mt-3">@Local.Payments</h4>
+                    <p class="text-muted">@Local.TrackPatientPaymentsAndBillingDetails</p>
+                    <a href="@Url.Action("GetAllPayments","Payment")" class="btn btn-outline-warning">@Local.ManagePayments</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0 rounded-3 h-100">
+                <div class="card-body text-center">
+                    <i class="bi bi-capsule-pill display-3 text-primary"></i>
+                    <h4 class="mt-3">@Local.Prescriptions</h4>
+                    <p class="text-muted">@Local.ViewAndManagePrescribedMedications .</p>
+                    <a href="@Url.Action("GetAllPrescriptions","Prescription")" class="btn btn-outline-primary">@Local.ViewPrescriptions</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+﻿
+@model P1_Clinic.Models.Doctor
+    @using Resources
+@using (Html.BeginForm("Save", "Doctor", FormMethod.Post))
+{
+    @Html.HiddenFor(d=>d.DoctorId)
+    <div class="container mt-4 m-5 justify-content-center d-flex">
+        <div class="card shadow p-4" style="width:400px">
+            <h3 class="mb-4 text-center text-primary pe-auto">@Local.AddNewDoctor</h3>
+            <div class="mb-3">
+
+                @Html.LabelFor(d => d.Person.Name, @Local.Name, new { @class = "form-lable" })
+                @Html.TextBoxFor(d => d.Person.Name, new { @class = "form-control",placeholder= @Local.EnterName })
+            </div>
+            <br />
+            <div class="mb-3">
+
+                @Html.LabelFor(d => d.Person.Email, @Local.Email, new { @class = "form-lable" })
+                @Html.TextBoxFor(d => d.Person.Email, new { @class = "form-control",placeholder= @Local.EnterEmail })
+            </div>
+            <br />
+            <div class="mb-3">
+
+                @Html.LabelFor(d => d.Person.Phone, @Local.PhoneNumber, new { @class = "form-lable" })
+                @Html.TextBoxFor(d => d.Person.Phone, new { @class = "form-control" ,placeholder= @Local.EnterPhone})
+            </div>
+
+            <br />
+            <div class="mb-3">
+
+                @Html.LabelFor(d => d.Person.Address, @Local.Address, new { @class = "form-lable" })
+                @Html.TextBoxFor(d => d.Person.Address, new { @class = "form-control",placeholder= @Local.EnterAddress })
+            </div>
+            <br />
+            <div class="mb-3">
+
+                @Html.LabelFor(d=>d.Specialization, @Local.Specialization, new { @class = "form-lable" })
+                @Html.TextBoxFor(d => d.Specialization, new { @class = "form-control",placeholder= @Local.Specialization })
+            </div>
+            <br />
+            <div class="text-center">
+
+                <button class="btn btn-info" type="submit">@Local.Save</button>
+            </div>
+        </div>
+    </div>
+}

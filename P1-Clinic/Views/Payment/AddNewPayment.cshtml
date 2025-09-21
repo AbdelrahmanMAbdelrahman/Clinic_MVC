@@ -1,0 +1,42 @@
+﻿@using Resources
+@model P1_Clinic.Models.Payment
+ 
+    <div class="container-sm d-flex justify-content-center"">
+        <div class="p-3" style="width:400px">
+            @using (Html.BeginForm("AddNewPayment", "Payment", FormMethod.Post))
+            {
+            <h3 class="text-primary text-center">@Local.AddNewPayment</h3> 
+ 
+            
+            <div class="mb-3">
+                @Html.LabelFor(p => p.AmountPaid, Local.AmountPaid, new { @class = "form-label" })
+                @Html.TextBoxFor(p => p.AmountPaid, new { @class = "form-control", placeholder = Local.AmountPaid,@type = "number", @step = "0.01" })
+            </div>
+            <div class="mb-3">
+                @Html.LabelFor(p => p.PatientId,Local.Patient ,new { @class = "form-label" })
+                @Html.DropDownListFor(p => p.PatientId,(SelectList)ViewBag.Patients,Local.Select,
+               new { @class = "form-control",@type = "number" })
+            </div>
+            <div class="mb-3">
+                @Html.LabelFor(p => p.DoctorId, Local.Doctor, new { @class = "form-label" })
+                @Html.DropDownListFor(p => p.DoctorId,
+               (SelectList)ViewBag.Doctors,Local.Select, new { @class = "form-control", @type = "number" })
+            </div>
+            <div class="mb-3">
+                @Html.LabelFor(p => p.PaymentMethodId,Local.PaymentMethod, new { @class = "form-label" })
+                @Html.DropDownListFor(p => p.PaymentMethodId,(SelectList)ViewBag.PaymentMethods,Local.Select,
+               new { @class = "form-control",@type = "number" })
+            </div>
+            <div class="mb-3">
+                @Html.LabelFor(p => p.Notes, Local.Notes, new { @class = "form-label" })
+                @Html.TextAreaFor(p => p.Notes,  new { @class = "form-control", placeholder = Local.Notes,rows = 3 })
+            </div>
+            <div class="d-flex justify-content-between">
+                <div class="text-center">
+                    <input type="submit" value=@Local.AddPayment class="btn btn-success" />
+                </div>
+                    @Html.ActionLink(Local.BackToList, "GetAllPayments", "Payment", null, new { @class = "btn btn-primary" })
+            </div>
+            }
+        </div>
+    </div>

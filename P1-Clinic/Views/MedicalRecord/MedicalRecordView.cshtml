@@ -1,0 +1,37 @@
+﻿@model P1_Clinic.Models.MedicalRecord
+@using Resources
+<div class="container-sm d-flex justify-content-center" style="min-width:400px">
+
+    <div class="card shadow p-5"style="width:400px">
+        @using (Html.BeginForm("Save", "MedicalRecord", FormMethod.Post))
+        {
+        @Html.HiddenFor(m => m.MedicalRecordId)
+        <div class="mb-3">
+            @Html.LabelFor(m => m.PatientId, Local.Patient, new { @class = "form-table" })
+            @Html.DropDownListFor(m => m.PatientId, (SelectList)ViewBag.Patients, Local.Select, new { @class = "form-control" })
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(m => m.DoctorId, Local.Doctor, new { @class = "form-table" })
+            @Html.DropDownListFor(m => m.DoctorId, (SelectList)ViewBag.Doctors, Local.Select, new { @class = "form-control" })
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(m => m.Diagnosis, Local.Diagnosis, new { @class = "form-table" })
+            @Html.TextBoxFor(m => m.Diagnosis, new { @class = "form-control", placeholder = Local.Diagnosis })
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(m => m.VisitDescription, Local.VisitDescription, new { @class = "form-table" })
+            @Html.TextBoxFor(m => m.VisitDescription, new { @class = "form-control", placeholder = Local.VisitDescription })
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(m => m.Notes, Local.Notes, new { @class = "form-table" })
+            @Html.TextBoxFor(m => m.Notes, new { @class = "form-control", placeholder = Local.Notes })
+        </div>
+        <div class="text-center">
+            <button class="btn btn-success" type="submit">@Local.Save </button>
+        </div>
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+        }
+    </div>
+</div>

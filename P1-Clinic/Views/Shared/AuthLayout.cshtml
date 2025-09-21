@@ -1,0 +1,18 @@
+﻿@model P1_Clinic.Models.User
+@using P1_Clinic.Global
+<!DOCTYPE html>
+<html lang="@(ClsGlobal.User?.Language?.Name??"en")" dir="@(ClsGlobal.User?.Language?.Name=="ar-EG"?"rtl":"ltr")">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewBag.Title - Clinic</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    @RenderBody()
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>

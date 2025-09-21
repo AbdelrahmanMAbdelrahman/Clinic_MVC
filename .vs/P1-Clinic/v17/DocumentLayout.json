@@ -1,0 +1,698 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|c:\\users\\abmoa\\source\\repos\\p1-clinic\\p1-clinic\\views\\doctor\\getalldoctors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\doctor\\getalldoctors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\views\\medicalrecord\\getallmedicalrecords.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\medicalrecord\\getallmedicalrecords.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\views\\patient\\getallpatients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\patient\\getallpatients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\views\\payment\\getallpayments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\payment\\getallpayments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\views\\prescription\\getallprescriptions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\prescription\\getallprescriptions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\views\\payment\\addnewpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\payment\\addnewpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\views\\shared\\authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\shared\\authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\views\\prescription\\prescriptionview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\prescription\\prescriptionview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\controllers\\prescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\controllers\\prescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\app_globalresources\\local.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\app_globalresources\\local.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\views\\patient\\getpatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\patient\\getpatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\app_globalresources\\local.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\app_globalresources\\local.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\global\\clsglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\global\\clsglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\views\\patient\\patientview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\patient\\patientview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\views\\medicalrecord\\medicalrecordview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\medicalrecord\\medicalrecordview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\views\\doctor\\doctorview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\doctor\\doctorview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\views\\prescription\\getprescription.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\prescription\\getprescription.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\views\\medicalrecord\\getmedicalrecord.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\medicalrecord\\getmedicalrecord.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\views\\payment\\getpaymentby.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\payment\\getpaymentby.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\views\\doctor\\getdoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\doctor\\getdoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\views\\user\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\user\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\views\\user\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\user\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\models\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\models\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\migrations\\202509201114174_adduserandlanguage2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\migrations\\202509201114174_adduserandlanguage2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\models\\cliniccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\models\\cliniccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\migrations\\202509201103507_adduserandlanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\migrations\\202509201103507_adduserandlanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\p1-clinic\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B352D70B-269D-4D0F-93B9-DF994DC1FBDA}|P1-Clinic\\P1-Clinic.csproj|solutionrelative:p1-clinic\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 23,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetAllPayments.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Payment\\GetAllPayments.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\Payment\\GetAllPayments.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Payment\\GetAllPayments.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\Payment\\GetAllPayments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T14:39:36.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetAllPrescriptions.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Prescription\\GetAllPrescriptions.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\Prescription\\GetAllPrescriptions.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Prescription\\GetAllPrescriptions.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\Prescription\\GetAllPrescriptions.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T15:43:20.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetAllPatients.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Patient\\GetAllPatients.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\Patient\\GetAllPatients.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Patient\\GetAllPatients.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\Patient\\GetAllPatients.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T14:02:08.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAllMedicalRecords.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\MedicalRecord\\GetAllMedicalRecords.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\MedicalRecord\\GetAllMedicalRecords.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\MedicalRecord\\GetAllMedicalRecords.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\MedicalRecord\\GetAllMedicalRecords.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T15:30:26.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAllDoctors.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Doctor\\GetAllDoctors.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\Doctor\\GetAllDoctors.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Doctor\\GetAllDoctors.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\Doctor\\GetAllDoctors.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T14:20:12.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddNewPayment.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Payment\\AddNewPayment.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\Payment\\AddNewPayment.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Payment\\AddNewPayment.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\Payment\\AddNewPayment.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T11:17:38.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T09:42:04.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "P1-Clinic\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "P1-Clinic\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAC8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T11:16:00.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MedicalRecordController.cs",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Controllers\\MedicalRecordController.cs",
+              "RelativeDocumentMoniker": "P1-Clinic\\Controllers\\MedicalRecordController.cs",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Controllers\\MedicalRecordController.cs",
+              "RelativeToolTip": "P1-Clinic\\Controllers\\MedicalRecordController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T11:13:29.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "P1-Clinic\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Controllers\\UserController.cs",
+              "RelativeToolTip": "P1-Clinic\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T09:29:03.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Shared\\AuthLayout.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\Shared\\AuthLayout.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Shared\\AuthLayout.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\Shared\\AuthLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T10:21:01.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PrescriptionController.cs",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Controllers\\PrescriptionController.cs",
+              "RelativeDocumentMoniker": "P1-Clinic\\Controllers\\PrescriptionController.cs",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Controllers\\PrescriptionController.cs",
+              "RelativeToolTip": "P1-Clinic\\Controllers\\PrescriptionController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:28:25.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PrescriptionView.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Prescription\\PrescriptionView.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\Prescription\\PrescriptionView.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Prescription\\PrescriptionView.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\Prescription\\PrescriptionView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T11:28:20.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetPatient.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Patient\\GetPatient.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\Patient\\GetPatient.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Patient\\GetPatient.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\Patient\\GetPatient.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T14:04:50.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Local.resx",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\App_GlobalResources\\Local.resx",
+              "RelativeDocumentMoniker": "P1-Clinic\\App_GlobalResources\\Local.resx",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\App_GlobalResources\\Local.resx",
+              "RelativeToolTip": "P1-Clinic\\App_GlobalResources\\Local.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-09-20T12:07:02.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "P1-Clinic\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Models\\Payment.cs",
+              "RelativeToolTip": "P1-Clinic\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T19:39:06.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PatientView.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Patient\\PatientView.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\Patient\\PatientView.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Patient\\PatientView.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\Patient\\PatientView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T14:09:00.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Local.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\App_GlobalResources\\Local.Designer.cs",
+              "RelativeDocumentMoniker": "P1-Clinic\\App_GlobalResources\\Local.Designer.cs",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\App_GlobalResources\\Local.Designer.cs",
+              "RelativeToolTip": "P1-Clinic\\App_GlobalResources\\Local.Designer.cs",
+              "ViewState": "AgIAAJgCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T18:49:14.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Global.asax.cs",
+              "RelativeDocumentMoniker": "P1-Clinic\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Global.asax.cs",
+              "RelativeToolTip": "P1-Clinic\\Global.asax.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T18:49:58.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Web.config",
+              "RelativeDocumentMoniker": "P1-Clinic\\Web.config",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Web.config",
+              "RelativeToolTip": "P1-Clinic\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-20T12:18:38.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DoctorView.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Doctor\\DoctorView.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\Doctor\\DoctorView.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Doctor\\DoctorView.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\Doctor\\DoctorView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T14:16:17.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ClsGlobal.cs",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Global\\ClsGlobal.cs",
+              "RelativeDocumentMoniker": "P1-Clinic\\Global\\ClsGlobal.cs",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Global\\ClsGlobal.cs",
+              "RelativeToolTip": "P1-Clinic\\Global\\ClsGlobal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T18:07:28.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MedicalRecordView.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\MedicalRecord\\MedicalRecordView.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\MedicalRecord\\MedicalRecordView.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\MedicalRecord\\MedicalRecordView.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\MedicalRecord\\MedicalRecordView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T11:30:02.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetPrescription.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Prescription\\GetPrescription.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\Prescription\\GetPrescription.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Prescription\\GetPrescription.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\Prescription\\GetPrescription.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T11:29:52.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetMedicalRecord.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\MedicalRecord\\GetMedicalRecord.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\MedicalRecord\\GetMedicalRecord.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\MedicalRecord\\GetMedicalRecord.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\MedicalRecord\\GetMedicalRecord.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T11:58:46.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T13:21:41.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetPaymentBy.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Payment\\GetPaymentBy.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\Payment\\GetPaymentBy.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Payment\\GetPaymentBy.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\Payment\\GetPaymentBy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T14:39:35.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SignIn.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\User\\SignIn.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\User\\SignIn.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\User\\SignIn.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\User\\SignIn.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T09:40:01.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GetDoctor.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Doctor\\GetDoctor.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\Doctor\\GetDoctor.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\Doctor\\GetDoctor.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\Doctor\\GetDoctor.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T14:26:22.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\User\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\User\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\User\\SignUp.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\User\\SignUp.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwCcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T10:53:09.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Models\\User.cs",
+              "RelativeDocumentMoniker": "P1-Clinic\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Models\\User.cs",
+              "RelativeToolTip": "P1-Clinic\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T09:00:45.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Language.cs",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Models\\Language.cs",
+              "RelativeDocumentMoniker": "P1-Clinic\\Models\\Language.cs",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Models\\Language.cs",
+              "RelativeToolTip": "P1-Clinic\\Models\\Language.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T11:02:22.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "202509201103507_AddUserAndLanguage.cs",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Migrations\\202509201103507_AddUserAndLanguage.cs",
+              "RelativeDocumentMoniker": "P1-Clinic\\Migrations\\202509201103507_AddUserAndLanguage.cs",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Migrations\\202509201103507_AddUserAndLanguage.cs",
+              "RelativeToolTip": "P1-Clinic\\Migrations\\202509201103507_AddUserAndLanguage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T11:03:54.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "P1-Clinic\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "P1-Clinic\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T09:38:58.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "202509201114174_AddUserAndLanguage2.cs",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Migrations\\202509201114174_AddUserAndLanguage2.cs",
+              "RelativeDocumentMoniker": "P1-Clinic\\Migrations\\202509201114174_AddUserAndLanguage2.cs",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Migrations\\202509201114174_AddUserAndLanguage2.cs",
+              "RelativeToolTip": "P1-Clinic\\Migrations\\202509201114174_AddUserAndLanguage2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T11:14:22.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ClinicContext.cs",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Models\\ClinicContext.cs",
+              "RelativeDocumentMoniker": "P1-Clinic\\Models\\ClinicContext.cs",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Models\\ClinicContext.cs",
+              "RelativeToolTip": "P1-Clinic\\Models\\ClinicContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T09:28:17.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "P1-Clinic\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "P1-Clinic\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T09:43:16.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MedicalRecord.cs",
+              "DocumentMoniker": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Models\\MedicalRecord.cs",
+              "RelativeDocumentMoniker": "P1-Clinic\\Models\\MedicalRecord.cs",
+              "ToolTip": "C:\\Users\\abmoa\\source\\repos\\P1-Clinic\\P1-Clinic\\Models\\MedicalRecord.cs",
+              "RelativeToolTip": "P1-Clinic\\Models\\MedicalRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T09:00:04.843Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

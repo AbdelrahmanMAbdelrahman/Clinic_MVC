@@ -1,0 +1,47 @@
+﻿@using Resources
+@model List< P1_Clinic.Models.Doctor>
+@if (Model.Count == 0)
+{
+    <div class="align-items-center d-flex justify-content-center flex-column" style="height:100vh">
+        <h1 class="text-center text-primary ">@Local.NoDoctorsFoundYet</h1>
+        <br />
+        @Html.ActionLink(@Local.AddNewDoctor, "AddDoctor", "Doctor", null, new { @class = "btn btn-primary mb-3" })
+
+    </div>
+}
+else
+{
+<div class="container-sm">
+    <h1 class="text-center">@Local.Doctors</h1>
+    @Html.ActionLink(@Local.AddNewDoctor, "AddDoctor", "Doctor", null, new { @class = "btn btn-primary mb-3" })
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+            <tr>
+                <th>@Local.DoctorId</th>
+                <th>  @Local.Name</th>
+                <th>  @Local.Email</th>
+                <th>  @Local.PhoneNumber</th>
+                <th>  @Local.Address</th>
+                <th>  @Local.Specialization</th>
+                <th>@Local.Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var doctor in Model)
+            {
+                <tr>
+                    <td>@doctor.DoctorId</td>
+                    <td><a class="text-decoration-none" href="/Doctor/GetDoctor/@doctor.DoctorId">@doctor.Person.Name</a></td>
+                    <td>@doctor.Person.Email</td>
+                    <td>@doctor.Person.Phone</td>
+                    <td>@doctor.Person.Address</td>
+                    <td>@doctor.Specialization</td>
+                    <td>
+                        @Html.ActionLink(@Local.Update, "UpdateDoctor", "Doctor", new { id = doctor.DoctorId }, new { @class = "btn btn-info m-1" })
+                        @Html.ActionLink(@Local.Delete, "DeleteDoctor", "Doctor", new { id = doctor.DoctorId }, new { @class = "btn btn-danger m-1" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>}

@@ -1,0 +1,26 @@
+﻿@model P1_Clinic.Models.User
+@using Resources
+@{
+    Layout = "~/Views/Shared/AuthLayout.cshtml";
+}
+
+
+<div class="container-sm d-flex justify-content-center align-items-center" style="height:100vh">
+    <div class="card shadow p-5" style="width:400px">
+        <h1 class="text-info text-center">@Local.Login</h1>
+        @using (Html.BeginForm("SignIn", "User", FormMethod.Post))
+        {
+            <div class="mb-3">
+                @Html.LabelFor(u => u.Email,Local.Email, new { @class = "form-label" })
+                @Html.TextBoxFor(u => u.Email, new { @class = "form-control", type = "email", placeholder =Local.EnterYourEmail })
+            </div>
+            <div class="mb-3">
+                @Html.LabelFor(u => u.Password,Local.Password, new { @class = "form-label" })
+                @Html.PasswordFor(u => u.Password, new { @class = "form-control", placeholder =Local.EnterYourPassword  })
+            </div>
+            <button class="btn btn-success w-100" type="submit">@Local.SignIn</button>
+            <p class="text-info m-3">@Local.DoNotHaveAnAccount ? <a class="text-decoration-none" href="/User/SignUp">@Local.SignUp</a></p>
+            @Html.ValidationSummary(true,"",new {@class="text-danger" })
+        }
+    </div>
+</div>

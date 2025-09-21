@@ -1,0 +1,40 @@
+﻿@model P1_Clinic.Models.User
+@using Resources
+@{
+    Layout = "~/Views/Shared/AuthLayout.cshtml";
+}
+
+<div class="container-sm m-3 d-flex justify-content-center align-items-center" style="height:100vh">
+    <div class="card shadow p-3" style="width:400px">
+        <h1 class="text-center text-primary">@Local.SignUp</h1>
+        @using (Html.BeginForm("SignUp", "User", FormMethod.Post))
+            {
+            <div class="mb-3">
+                @Html.LabelFor(u => u.UserName,Local.UserName, new { @class = "form-label" })
+                @Html.TextBoxFor(u => u.UserName,new { @class = "form-control",placeholder=Local.EnterYourUserName})
+            </div>
+            <div class="mb-3">
+                @Html.LabelFor(u => u.Email,Local.Email, new { @class = "form-label" })
+                @Html.TextBoxFor(u => u.Email, new { @class = "form-control",placeholder=Local.EnterYourEmail })
+            </div>
+            <div class="mb-3">
+                @Html.LabelFor(u => u.PhoneNumber,Local.PhoneNumber, new { @class = "form-label" })
+                @Html.TextBoxFor(u => u.PhoneNumber, new { @class = "form-control",placeholder=Local.EnterPhoneNumber })
+            </div>
+            <div class="mb-3">
+                @Html.LabelFor(u => u.Language, Local.Language,new { @class = "form-label" })
+                @Html.DropDownListFor(u => u.LanguageId,(SelectList)ViewBag.Languages,Local.SelectALanguage,
+               new { @class = "form-control"})
+            </div>
+            <div class="mb-3">
+                @Html.LabelFor(u => u.Password,Local.Password, new { @class = "form-label" })
+                @Html.PasswordFor(u => u.Password, new { @class = "form-control",placeholder="******" })
+            </div>
+             <button type="submit" class="btn btn-success w-100">@Local.SignUp</button>
+             <p class="text-info text-center">@Local.AlreadyHaveAnAccount ? 
+        <a class="text-decoration-none" href="/User/SignIn">@Local.SignIn</a></p>
+             @Html.ValidationSummary(true,"",new { @class="text-danger"})  
+             }
+    </div>
+</div>
+</div>

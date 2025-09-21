@@ -1,0 +1,54 @@
+﻿@model List<P1_Clinic.Models.MedicalRecord>
+    @using Resources
+
+@if (Model.Count == 0)
+{<div class=" align-items-center flex-column d-flex justify-content-center " style="height:100vh">
+    <h1 class="text-center text-primary">@Local.NoMedicalRecordsFoundYet</h1>
+    <br />
+    @Html.ActionLink(Local.AddNewMedicalRecord, "AddNewMedicalRecord", "medicalRecord", null, new { @Class = "btn btn-info mb-3" })
+
+</div>
+}
+else
+{
+<div class="container-sm">
+    <h1 class="text-center">@Local.AddMedicalRecord</h1>
+    @Html.ActionLink(Local.AddNewMedicalRecord, "AddNewMedicalRecord", "medicalRecord", null, new { @Class = "btn btn-info mb-3" })
+ 
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>@Local.MedicalRecordId</th>
+                    <th>@Local.Patient</th>
+                    <th>@Local.Doctor</th>
+                    <th>@Local.Diagnosis</th>
+                    <th>@Local.VisitDescription</th>
+                    <th>@Local.Notes</th>
+                    <th>@Local.Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var record in Model)
+                {
+                    <tr>
+                        <td>
+                            <a class="text-decoration-none" href="/MedicalRecord/GetMedicalRecord/@record.MedicalRecordId">
+                                @record.MedicalRecordId
+                            </a>
+                        </td>
+                        <td><a class="text-decoration-none" href="/Patient/GetPatient/@record.PatientId">@record.Patient.Person.Name</a></td>
+                        <td><a class="text-decoration-none" href="/Doctor/GetDoctor/@record.DoctorId">@record.Doctor.Person.Name</a></td>
+                        <td>@record.Diagnosis</td>
+                        <td>@record.VisitDescription</td>
+                        <td>@record.Notes</td>
+                        <td>
+                            @Html.ActionLink(Local.Update, "UpdateMedicalRecord", "MedicalRecord",
+            new { id = record.MedicalRecordId }, new { @class = "btn btn-warning m-1" })
+                            @Html.ActionLink(Local.Delete, "DeleteMedicalRecord", "MedicalRecord",
+            new { id = record.MedicalRecordId }, new { @class = "btn btn-danger m-1" })
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
